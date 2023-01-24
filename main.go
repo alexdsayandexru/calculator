@@ -1,7 +1,6 @@
 package main
 
-import "fmt"
-
 func main() {
-	fmt.Println("hello from calculator")
+	c := Calculator{}
+	c.Calculate("Hello world")
 }
